@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Not the same old... distributed evolutionary computation</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="Talk at the Nottingham Sandbox, written using reveal.js framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="JJ Merelo">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -36,27 +36,44 @@
 
 	<body>
 
-		<div class="reveal">
+	  <div class="reveal">
+	    
+	    <!-- Any section element inside of this container is displayed as a slide -->
+	    <div class="slides">
+	      <section>
+		<h1>Not the same old stuff</h1>
+		<h2>Distributed metaheuristics right now and the day after tomorrow</h2>
+		<h3>
+		  <small><a href="http://jj.github.io">JJ Merelo</a> / <a href="http://twitter.com/jjmerelo"><code>@jjmerelo</code>
+		  </a></small>
+	      </section>
+	      
+	      <section style="text-align: left;">
+		<h1>Thanks!</h1>
+		<img src='img/questions.png' alt='any question?'>
+		<p>Descarga esto de <a href='http://github.com/JJ/not-the-same-old'><code>git.io/sandbox-jj</code></a>
+	      </section>
+	      
+	      <!-- Diapo de créditos de las fotos -->
+	      
+	      <section>
+		<h2>Credits</h2>
+		
+		<ol>
+		  <li class='credits'><a
+		    href='https://www.flickr.com/photos/wlodi/3085157011'>Botón
+		    rojo por włodi</a>.</li>
+		  
+		</ol>
 
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
-				<section>
-					<h1>Reveal.js</h1>
-					<h3>The HTML Presentation Framework</h3>
-					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
-					</p>
-				</section>
-
-				<section style="text-align: left;">
-					<h1>THE END</h1>
-					<p>
-						- <a href="http://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
-					</p>
-				</section>
-
+		
+	      </section>
+	      
 			</div>
+			
+		</div>
+		
+		</div>
 
 		</div>
 
@@ -68,25 +85,26 @@
 			// Full list of configuration options available at:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
-
-				transition: 'slide', // none/fade/slide/convex/concave/zoom
-
-				// Optional reveal.js plugins
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true },
-					{ src: 'plugin/notes/notes.js', async: true }
-				]
+			  width: 994,
+			  controls: true,
+			  progress: true,
+			  history: true,
+			  center: true,
+			  
+			  transition: 'zoom', // none/fade/slide/convex/concave/zoom
+			  
+			  // Optional reveal.js plugins
+			  dependencies: [
+			    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+			    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+			    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+			    { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+			    { src: 'plugin/zoom-js/zoom.js', async: true },
+			    { src: 'plugin/notes/notes.js', async: true }
+			  ]
 			});
-
+		 
 		</script>
-
+		
 	</body>
 </html>
