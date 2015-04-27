@@ -15,6 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/extra.css">
 		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
 
 		<!-- Code syntax highlighting -->
@@ -107,6 +108,35 @@
 		  eventually, better</aside>
 	      </section>
 
+	      <section
+		data-background-transition="concave">
+		<h1><code>package.json</code></h1>
+		<pre><code data-trim>{
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "express": "~3.4.x",
+    "mocha": "~2.1.x",
+    "winston-loggly": "^1.0.5"
+  },
+  "repository": {
+    "url": "https://github.com/JJ/splash-volunteer"
+  },
+  "devDependencies": {
+    "supertest": "~0.15.0",
+    "should": "~4.6.2"
+  }
+}</code></pre>
+		<aside class='notes'>This is a very simple
+		<code>package.json</code> for deploying a
+		volunteer-based evolutionary algorithm, Nodio, in a
+		PaaS such as OpenShift or Heroku (both free). It
+		includes instructions for testing and then all
+		dependencies.</aside>
+	      </section>
+
 	      <!-- Final slide -->
 
 	      <section>
@@ -114,6 +144,7 @@
 		<img src='img/questions.png' alt='any question?'>
 		<p>Download from <a href='http://github.com/JJ/not-the-same-old'><code>git.io/sandbox-jj</code></a>
 	      </section>
+
 	      
 	      <!-- Diapo de créditos de las fotos -->
 	      
@@ -131,7 +162,13 @@
 		  href='https://www.flickr.com/photos/16038409@N02/2327155978'>Free
 		    beer by The Art Gallery</a></li>
 
-		  <li class='credits'>Tag clouds made with Tagul and <a href='https://www.jasondavies.com/wordcloud/#%2F%2Fwww.jasondavies.com%2Fwordcloud%2Fabout%2F'>Tag cloud generator</a></li>
+		  <li class='credits'>Tag clouds made with Tagul and
+		  <a
+		  href='https://www.jasondavies.com/wordcloud/#%2F%2Fwww.jasondavies.com%2Fwordcloud%2Fabout%2F'>Tag
+		  cloud generator</a></li>
+		  <li class='credits'><a
+		  href='https://www.flickr.com/photos/jurvetson/7408451314'>Assembly
+		    line by Jurvetson</a></li>
 		</ol>
 
 		
