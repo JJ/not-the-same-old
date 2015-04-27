@@ -1,0 +1,16 @@
+"cloud" "Freq"
+"1" "bigdata" 3
+"2" "BOINC" 2
+"3" "browser" 8
+"4" "cloud" 8
+"5" "clusters" 8
+"6" "complex-network" 8
+"7" "ephemeral" 2
+"8" "hadoop" 31
+"9" "heterogeneous" 1
+"10" "JavaScript" 8
+"11" "mapreduce" 3
+"12" "node" 12
+"13" "Scala" 4
+"14" "Spark" 24
+"15" "web" 10
